@@ -1,0 +1,28 @@
+.c-articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+.c-articles__item {
+    padding: 10px 20px 20px;
+    background: #FFF;
+    color: #000;
+    margin: 20px 20px;
+    width: calc(33.333333% - 40px);
+    transition: transform .3s ease-in-out;
+    min-height: 200px;
+}
+.c-articles__item h3 {
+    font-size: 24px;
+}
+.c-articles__item p {
+    font-size: 16px;
+    color: #6b6b6b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+.c-articles__item:hover {
+    transform: scale(1.08);    
+}

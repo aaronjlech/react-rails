@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Carme|Dosis');
+
+html {
+  height: 100%;
+  width: 100%;
+  background: #1565c0;
+  font-family: 'Carme', sans-serif;
+  font-weight: lighter;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  color: #FFF;
+  background: #1565c0;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 1.25px;
+  font-weight: normal;
+}
+
+
+.siteWrapper {
+  margin: 0 auto;
+  padding: 0px 30px;
+  max-width: 1440px;
+  padding-top: 60px;
+}
+
+
+/* UTILITIES */
+.u-textCenter {
+  text-align: center;
+}
+.u-textRight {
+  text-align: right;
+}
+.u-textLeft {
+  text-align: left;
+}
+
+
+.u-inlineBlock {
+  display: inline-block;
+}
